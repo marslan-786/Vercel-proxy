@@ -2,7 +2,7 @@ const http = require('http');
 const net = require('net');
 const { WebSocketServer } = require('ws');
 
-const PORT = process.env.PORT || 8286;
+const PORT = process.env.PORT;
 
 const server = http.createServer((req, res) => {
     res.writeHead(200, { 'Content-Type': 'text/plain' });
