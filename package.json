@@ -1,0 +1,12 @@
+{
+  "name": "deepseek-websocket-proxy",
+  "version": "1.0.0",
+  "description": "Bypass Edge Routers via WebSocket Tunnel",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
